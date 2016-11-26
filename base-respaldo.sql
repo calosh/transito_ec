@@ -39,7 +39,7 @@ CREATE TABLE clasevehiculo (
 );
 
 
-ALTER TABLE public.clasevehiculo OWNER TO reroes;
+ALTER TABLE public.clasevehiculo OWNER TO postgres;
 
 --
 -- Name: clasevehiculo_idclasev_seq; Type: SEQUENCE; Schema: public; Owner: reroes
@@ -53,7 +53,7 @@ CREATE SEQUENCE clasevehiculo_idclasev_seq
     CACHE 1;
 
 
-ALTER TABLE public.clasevehiculo_idclasev_seq OWNER TO reroes;
+ALTER TABLE public.clasevehiculo_idclasev_seq OWNER TO postgres;
 
 --
 -- Name: clasevehiculo_idclasev_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: reroes
@@ -72,7 +72,7 @@ CREATE TABLE combustibles (
 );
 
 
-ALTER TABLE public.combustibles OWNER TO reroes;
+ALTER TABLE public.combustibles OWNER TO postgres;
 
 --
 -- Name: combustibles_idcomb_seq; Type: SEQUENCE; Schema: public; Owner: reroes
@@ -86,7 +86,7 @@ CREATE SEQUENCE combustibles_idcomb_seq
     CACHE 1;
 
 
-ALTER TABLE public.combustibles_idcomb_seq OWNER TO reroes;
+ALTER TABLE public.combustibles_idcomb_seq OWNER TO postgres;
 
 --
 -- Name: combustibles_idcomb_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: reroes
@@ -105,7 +105,7 @@ CREATE TABLE provincias (
 );
 
 
-ALTER TABLE public.provincias OWNER TO reroes;
+ALTER TABLE public.provincias OWNER TO postgres;
 
 --
 -- Name: provincias_idprov_seq; Type: SEQUENCE; Schema: public; Owner: reroes
@@ -119,7 +119,7 @@ CREATE SEQUENCE provincias_idprov_seq
     CACHE 1;
 
 
-ALTER TABLE public.provincias_idprov_seq OWNER TO reroes;
+ALTER TABLE public.provincias_idprov_seq OWNER TO postgres;
 
 --
 -- Name: provincias_idprov_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: reroes
@@ -138,7 +138,7 @@ CREATE TABLE tipovehiculo (
 );
 
 
-ALTER TABLE public.tipovehiculo OWNER TO reroes;
+ALTER TABLE public.tipovehiculo OWNER TO postgres;
 
 --
 -- Name: tipovehiculo_idtipov_seq; Type: SEQUENCE; Schema: public; Owner: reroes
@@ -152,7 +152,7 @@ CREATE SEQUENCE tipovehiculo_idtipov_seq
     CACHE 1;
 
 
-ALTER TABLE public.tipovehiculo_idtipov_seq OWNER TO reroes;
+ALTER TABLE public.tipovehiculo_idtipov_seq OWNER TO postgres;
 
 --
 -- Name: tipovehiculo_idtipov_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: reroes
@@ -179,7 +179,7 @@ CREATE TABLE vehiculos (
 );
 
 
-ALTER TABLE public.vehiculos OWNER TO reroes;
+ALTER TABLE public.vehiculos OWNER TO postgres;
 
 --
 -- Name: vehiculos_idvehiculo_seq; Type: SEQUENCE; Schema: public; Owner: reroes
@@ -193,7 +193,7 @@ CREATE SEQUENCE vehiculos_idvehiculo_seq
     CACHE 1;
 
 
-ALTER TABLE public.vehiculos_idvehiculo_seq OWNER TO reroes;
+ALTER TABLE public.vehiculos_idvehiculo_seq OWNER TO postgres;
 
 --
 -- Name: vehiculos_idvehiculo_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: reroes
